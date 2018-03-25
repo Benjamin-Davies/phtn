@@ -18,10 +18,6 @@ section {
   padding: 1em 0;
 }
 
-ul {
-  columns: 2;
-}
-
 li::before {
   color: #aaa;
   font-family: 'Material Icons', 'Roboto', sans-serif;
@@ -35,5 +31,9 @@ ul.done li::before {
 @media (min-width: 600px) {
   section h5 {
     display: inline;
+  }
+
+  ul {
+    columns: 2;
   }
 }
