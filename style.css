@@ -5,7 +5,8 @@ section {
 }
 
 header h1,
-section h5 {
+section h5,
+footer h5 {
   color: white;
   color: white;
 }
@@ -18,7 +19,7 @@ section {
   padding: 1em 0;
 }
 
-li::before {
+ul.bulleted li::before {
   color: #aaa;
   font-family: 'Material Icons', 'Roboto', sans-serif;
   margin-right: 5px;
