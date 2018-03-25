@@ -28,6 +28,10 @@ ul.done li::before {
   content: 'done';
 }
 
+ul.search li::before {
+  content: 'search';
+}
+
 @media (min-width: 600px) {
   section h5 {
     display: inline;
