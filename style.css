@@ -1,0 +1,22 @@
+header,
+section {
+  display: table;
+  width: 100%;
+}
+
+header h1 {
+  color: white;
+}
+
+section {
+  font-size: 1.2em;
+}
+
+section h5 {
+  color: white;
+  display: inline;
+}
+
+.fg-img {
+  padding: 1em 0;
+}
