@@ -47,7 +47,7 @@ ul.search li::before {
     display: inline;
   }
 
-  ul {
+  ul.bulleted {
     columns: 2;
   }
 }
