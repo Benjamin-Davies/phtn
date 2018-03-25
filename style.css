@@ -11,8 +11,13 @@ footer h5 {
   color: white;
 }
 
+header {
+  padding: 48px 10px 64px;
+}
+
 section {
   font-size: 1.2em;
+  padding: 32px 0;
 }
 
 .fg-img {
@@ -34,6 +39,10 @@ ul.search li::before {
 }
 
 @media (min-width: 600px) {
+  header {
+    padding-bottom: 256px;
+  }
+
   section h5 {
     display: inline;
   }
