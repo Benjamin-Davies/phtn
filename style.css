@@ -13,6 +13,22 @@ footer h5 {
 
 header {
   padding: 48px 10px 64px;
+  background: rgba(10, 0, 0, 0.7);
+}
+
+.header-bg {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+
+  background-image: url('./res/header.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 section {
@@ -37,6 +53,10 @@ ul.search li::before {
 @media (min-width: 600px) {
   header {
     padding-bottom: 256px;
+  }
+
+  header h2 {
+    font-size: 4.2rem;
   }
 
   section h5 {
