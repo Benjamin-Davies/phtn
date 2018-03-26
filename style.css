@@ -20,10 +20,6 @@ section {
   padding: 32px 0;
 }
 
-.fg-img {
-  padding: 1em 0;
-}
-
 ul.bulleted li::before {
   color: #aaa;
   font-family: 'Material Icons', 'Roboto', sans-serif;
